@@ -12,4 +12,12 @@
 	<string name="RelativeLayout">RelativeLayout</string>
 	<string name="FrameLayout">FrameLayout</string>  
 	<string name="TableLayout">TableLayout</string>
+	
+	<string name="color_red">RED</string>
+	<string name="color_orange">ORANGE</string>
+	<string name="color_yellow">YELLOW</string>
+	<string name="color_green">GREEN</string>
+	<string name="color_blue">BLUE</string>
+	<string name="color_indigo">INDIGO</string>
+	<string name="color_violet">VIOLET</string>
 </resources>

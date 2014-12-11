@@ -40,10 +40,20 @@
         android:text="@string/AbsotuteLayout" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/toggleButton1"
         android:layout_alignLeft="@+id/textView1"
         android:text="@string/AbsotuteLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/toggleButton1"
+        android:orientation="vertical" >
+    </LinearLayout>
 
 </RelativeLayout>

@@ -1,12 +1,84 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}" >
+    android:orientation="vertical" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/LinearLayout" />
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="@string/color_red"
+        android:textColor="@color/white" >
+    </TextView>
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="@string/color_orange"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/color_yellow"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/color_green"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/color_blue"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/indigo"
+        android:gravity="center"
+        android:text="@string/color_indigo"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/violet"
+        android:gravity="center"
+        android:text="@string/color_violet"
+        android:textColor="@color/white" >
+    </TextView>
+
+</LinearLayout>

@@ -12,7 +12,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity {						
 
 	String[] layouts = { "FrameLayout", "LinearLayout", "TableLayout",
 			"RelativeLayout", "AbsoluteLayout" };
@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main); 
 		ListView listview = (ListView) findViewById(R.id.lvLayoutTitle);
 		SimpleAdapter adapter = new SimpleAdapter(this, GetData(),
 				R.layout.listview_title, new String[] { "title" },
