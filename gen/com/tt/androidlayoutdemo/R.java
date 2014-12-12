@@ -81,10 +81,11 @@ public final class R {
         public static final int activity_absolute_layout=0x7f030000;
         public static final int activity_frame_layout=0x7f030001;
         public static final int activity_linear_layout=0x7f030002;
-        public static final int activity_main=0x7f030003;
-        public static final int activity_relative_layout=0x7f030004;
-        public static final int activity_table_layout=0x7f030005;
-        public static final int listview_title=0x7f030006;
+        public static final int activity_linear_layout_demo=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_relative_layout=0x7f030005;
+        public static final int activity_table_layout=0x7f030006;
+        public static final int listview_title=0x7f030007;
     }
     public static final class string {
         public static final int AbsotuteLayout=0x7f050007;
@@ -104,6 +105,7 @@ public final class R {
         public static final int title_activity_absolute_layout=0x7f050006;
         public static final int title_activity_frame_layout=0x7f050002;
         public static final int title_activity_linear_layout=0x7f050003;
+        public static final int title_activity_linear_layout_demo=0x7f050013;
         public static final int title_activity_relative_layout=0x7f050005;
         public static final int title_activity_table_layout=0x7f050004;
     }

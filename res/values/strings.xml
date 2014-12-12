@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">AndroidLayoutDemo</string>
+
+    <string name="app_name">AndroidLayoutDemo</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_frame_layout">FrameLayoutActivity</string>
     <string name="title_activity_linear_layout">LinearLayoutActivity</string>
@@ -9,15 +10,16 @@
     <string name="title_activity_absolute_layout">AbsoluteLayoutActivity</string>
     <string name="AbsotuteLayout">AbsoluteLayout</string>
     <string name="LinearLayout">LinearLayout</string>
-	<string name="RelativeLayout">RelativeLayout</string>
-	<string name="FrameLayout">FrameLayout</string>  
-	<string name="TableLayout">TableLayout</string>
-	
-	<string name="color_red">RED</string>
-	<string name="color_orange">ORANGE</string>
-	<string name="color_yellow">YELLOW</string>
-	<string name="color_green">GREEN</string>
-	<string name="color_blue">BLUE</string>
-	<string name="color_indigo">INDIGO</string>
-	<string name="color_violet">VIOLET</string>
+    <string name="RelativeLayout">RelativeLayout</string>
+    <string name="FrameLayout">FrameLayout</string>
+    <string name="TableLayout">TableLayout</string>
+    <string name="color_red">RED</string>
+    <string name="color_orange">ORANGE</string>
+    <string name="color_yellow">YELLOW</string>
+    <string name="color_green">GREEN</string>
+    <string name="color_blue">BLUE</string>
+    <string name="color_indigo">INDIGO</string>
+    <string name="color_violet">VIOLET</string>
+    <string name="title_activity_linear_layout_demo">LinearLayoutDemoActivity</string>
+
 </resources>

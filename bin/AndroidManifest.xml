@@ -24,8 +24,8 @@
         </activity>
         <activity
             android:name=".FrameLayoutActivity"
-            android:label="@string/title_activity_frame_layout" 
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:label="@string/title_activity_frame_layout"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name=".LinearLayoutActivity"
@@ -42,6 +42,10 @@
         <activity
             android:name=".AbsoluteLayoutActivity"
             android:label="@string/title_activity_absolute_layout" >
+        </activity>
+        <activity
+            android:name=".LinearLayoutDemoActivity"
+            android:label="@string/title_activity_linear_layout_demo" >
         </activity>
     </application>
 
