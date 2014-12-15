@@ -15,7 +15,7 @@ import android.widget.SimpleAdapter;
 public class MainActivity extends Activity {						
 
 	String[] layouts = { "FrameLayout", "LinearLayout", "TableLayout",
-			"RelativeLayout", "AbsoluteLayout" };
+			"RelativeLayout", "AbsoluteLayout", "LinearDemo" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +62,8 @@ public class MainActivity extends Activity {
 				break;
 			case 4:
 				obj = AbsoluteLayoutActivity.class;
+			case 5:
+				obj = LinearLayoutDemoActivity.class;
 				break;
 			}
 			intent.setClass(MainActivity.this, obj);
